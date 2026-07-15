@@ -60,12 +60,18 @@ Bu komuttan sonra artık bahsi geçen dizininiz bir repository oldu. Tebrikler! 
 dosya yöneticinizi kullanarak o dizinde bir dosya oluşturup o dosyaya bir şeyler yazabilirsiniz. Genelde
 ilk dosyanız `README.md` olur ancak tabii ki bu opsiyonel. Dosyanıza bir şeyler yazıp kaydettiyseniz,
 ilk commit'imizi oluşturabiliriz. Commit'i oluşturmadan önce, commit'te spesifik olarak hangi değişikliklerin
-olacağını Git'e söylememiz gerekiyor. Bunu `add` ile yapabiliriz. Aşağıdaki komut otomatik olarak değiştirdiğiniz
-*bütün* dosyaları commit'e dahil edecektir. Eğer dosyaları tek tek eklemek isterseniz, `-A` yerine dosyaların
-adını tek tek yazabilirsiniz, ancak buna çoğu zaman ihtiyacınız olmayacak.
+olacağını Git'e söylememiz gerekiyor, ve buna "***staging***" deniyor. Bunu `add` ile yapabiliriz. Aşağıdaki
+komut otomatik olarak değiştirdiğiniz *bütün* dosyaları commit'e dahil edecektir. Eğer dosyaları tek tek eklemek
+isterseniz, `-A` yerine dosyaların adını tek tek yazabilirsiniz, ancak buna çoğu zaman ihtiyacınız olmayacak.
 
 ```bash
 $ git add -A
+```
+
+Şu anki staging durumunuzu görmek için şu komudu kullanabilirsiniz:
+
+```bash
+$ git status
 ```
 
 Değişikliklerimiz hazır olduğuna göre commit'imizi yapalım. Her commit'in bir açıklaması olur. Örneğin
@@ -99,7 +105,7 @@ ekleyip `git log` ile bakarak değişikliklerin nasıl depolandığını anlamay
 
 ---
 
-> [Sonraki Bölüm'e git](03-isbirligi.md)
+> [Sonraki bölüme git](03-isbirligi.md)
 
 [kendi sayfasından]: https://git-scm.com/install/windows
 [Visual Studio Code]: https://code.visualstudio.com/download

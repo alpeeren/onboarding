@@ -74,7 +74,7 @@ birleşimi tek bir commit sonra yapmak zorunda değildik. Onlarca farklı commit
 
 ---
 
-> [Sonraki Bölüm'e git](02-kullanim.md)
+> [Sonraki bölüme git](02-kullanim.md)
 
 [***versiyon kontrol sistemi***]: https://en.wikipedia.org/wiki/Version_control
 [Lego]: https://en.wikipedia.org/wiki/Lego
