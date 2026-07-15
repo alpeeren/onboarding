@@ -3,6 +3,7 @@
     1. [Versiyon Kontrol Sistemi](#1i-versiyon-kontrol-sistemi)
     2. [Git](#1ii-git)
 2. [Temel Git Kullanımı](02-kullanim.md)
+3. [Git ile İşbirliği](03-isbirligi.md)
 ---
 
 # 1. Git'e Giriş
@@ -50,25 +51,25 @@ analojimizdeki kedinin kendisi olarak düşünebilirsiniz, bu örnekte ise bir d
 Repository'mizde yapacağımız anlamlı değişiklikleri, örneğin siteye eklediğimiz bir "Ekibimiz" sayfasını,
 kedimizin fotoğrafını çektiğimiz gibi kaydetmek istiyoruz. Böylece pişman olduğumuzda geçmişteki farklı kayıtlara
 dönebilir, veya ileride başka kayıtlarla birleştirebiliriz. Bu kayıtlara Git'te "***commit***" adını vereceğiz.
-Örneğin aşağıdaki diyagramda A ve B birer commit.
+Örneğin aşağıdaki diyagramda `A` ve `B` birer commit, ve içlerinde çeşitli değişiklikler barındırıyorlar.
 
-<img align="center" src="../assets/linear.png" alt="" />
+![alt](../assets/linear.png)
 
 Bu commitlerin doğrusal olmasından anlayabileceğiniz üzere, bu doğru üzerinde geriye veya ileriye yolculuk
 etmemiz mümkün. Şimdi başka bir durumu ele alalım. Aynı kedinin iki bacağını iki kişinin yapması gibi, sitenin
 bir sayfasını siz, diğer sayfasını bir arkadaşınız yapmak isteyibilirsiniz. Bu durumda "***branch***" adını
 verdiğimiz bir yöntemle commit tarihi çizgisinde bir kırılma yapıp birden fazla çizgiye bölüyoruz. Görelim.
 
-<img align="center" src="../assets/branched.png" alt="" />
+![alt](../assets/branched.png)
 
-Gördüğünüz üzere aynı ortak noktadan yola çıkarak yeşil olan siz C commitini, mor arkadaşınız ise D commitini
-eyledi. Bu ağaç şeklindeki diyagrama baktığınızda anlayabileceğiniz üzere A>B>C şeklinde bir dal, A>B>D şeklinde
-ise başka bir dal var. Lâkin kedi örneğimizde olduğu gibi, bir noktada bu dallarda yaptığımız değişiklikleri
+Gördüğünüz üzere aynı ortak noktadan yola çıkarak yeşil olan siz `C` commitini, mor arkadaşınız ise `D` commitini
+eyledi. Bu ağaç şeklindeki diyagrama baktığınızda anlayabileceğiniz üzere `A`>`B`>`C` şeklinde bir dal, `A`>`B`>`D`
+şeklinde ise başka bir dal var. Lâkin kedi örneğimizde olduğu gibi, bir noktada bu dallarda yaptığımız değişiklikleri
 birleşmek istiyoruz. Bu birleşmeye "***merge***" diyeceğiz.
 
-<img align="center" src="../assets/merged.png" alt="" />
+![alt](../assets/merged.png)
 
-Gördüğünüz gibi E commiti ile bu iki dalı birleştirip web sitemizi tekrar bütünlüğüne kavuşturabildik. Bu
+Gördüğünüz gibi `E` commiti ile bu iki dalı birleştirip web sitemizi tekrar bütünlüğüne kavuşturabildik. Bu
 birleşimi tek bir commit sonra yapmak zorunda değildik. Onlarca farklı commit biriktirip en son da birleştirebilirdik.
 
 ---
