@@ -4,7 +4,8 @@
 
 <a href="https://github.com/aaltebigep/onboarding/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-313244?style=for-the-badge&logo=creativecommons&logoColor=%23ffffff&labelColor=%23313244&color=%23cba6f7" alt="CC BY-SA 4.0" /></a>
 
-Bu repository'de AAL TEBİGEP bünyesinde GitHub'da katkı sağlamak isteyen katılımcılara yönelik oryantasyon bulunuyor.  
+Bu repository'de AAL TEBİGEP bünyesinde GitHub'da katkı sağlamak isteyen katılımcılara yönelik oryantasyon bulunuyor.
+
 *AAL TEBİGEP GitHub organizasyonda katkıda bulunmak için kullanıcılar bu oryantasyonu başarıyla tamamlamalı ve
 kendilerini [`/members.yml`](members.yml) dosyasına eklemeliler.*
 
