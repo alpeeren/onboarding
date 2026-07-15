@@ -4,6 +4,7 @@
     1. [Git'in Kurulumu](#2i-gitin-kurulumu)
     2. [İlk Commit](#2ii-i̇lk-commit)
 3. [Git ile İşbirliği](03-isbirligi.md)
+4. [Komut Kılavuzu](04-komutlar.md)
 ---
 
 # 2. Temel Git Kullanımı
@@ -59,10 +60,16 @@ $ git init
 Bu komuttan sonra artık bahsi geçen dizininiz bir repository oldu. Tebrikler! Favori editörünüzü veya
 dosya yöneticinizi kullanarak o dizinde bir dosya oluşturup o dosyaya bir şeyler yazabilirsiniz. Genelde
 ilk dosyanız `README.md` olur ancak tabii ki bu opsiyonel. Dosyanıza bir şeyler yazıp kaydettiyseniz,
-ilk commit'imizi oluşturabiliriz. Commit'i oluşturmadan önce, commit'te spesifik olarak hangi değişikliklerin
-olacağını Git'e söylememiz gerekiyor, ve buna "***staging***" deniyor. Bunu `add` ile yapabiliriz. Aşağıdaki
-komut otomatik olarak değiştirdiğiniz *bütün* dosyaları commit'e dahil edecektir. Eğer dosyaları tek tek eklemek
-isterseniz, `-A` yerine dosyaların adını tek tek yazabilirsiniz, ancak buna çoğu zaman ihtiyacınız olmayacak.
+ilk commit'imizi oluşturabiliriz. Önce yaptığınız değişiklikleri bir görelim.
+
+```bash
+$ git diff
+```
+
+Commit'i oluşturmadan önce, commit'te spesifik olarak hangi değişikliklerin olacağını Git'e söylememiz gerekiyor,
+ve buna "***staging***" deniyor. Bunu `add` ile yapabiliriz. Aşağıdaki komut otomatik olarak değiştirdiğiniz *bütün*
+dosyaları commit'e dahil edecektir. Eğer dosyaları tek tek eklemek isterseniz, `-A` yerine dosyaların adını tek tek
+yazabilirsiniz, ancak buna çoğu zaman ihtiyacınız olmayacak.
 
 ```bash
 $ git add -A

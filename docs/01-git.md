@@ -4,6 +4,7 @@
     2. [Git](#1ii-git)
 2. [Temel Git Kullanımı](02-kullanim.md)
 3. [Git ile İşbirliği](03-isbirligi.md)
+4. [Komut Kılavuzu](04-komutlar.md)
 ---
 
 # 1. Git'e Giriş

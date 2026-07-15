@@ -4,6 +4,7 @@
 3. Git ile İşbirliği
     1. [Hazırlıklar](#3i-hazırlıklar)
     2. [İlk Merge Request](#3ii-i̇lk-merge-request)
+4. [Komut Kılavuzu](04-komutlar.md)
 ---
 
 # 3. Git ile İşbirliği
@@ -170,12 +171,13 @@ bırakacaktır. Bu review'a göre eğer sizden bir değişiklik talep ederlerse,
 buna ihtiyaç görülmezse, PR'ınız kabul edilecek ve branch'ınız ilgili proje ile birleştirilecektir!
 
 Bu repository'ye yaptığınız PR'ın kabul edilmesi ve [`/members.yml`] dosyasında kullanıcı adınızın bulunması hâlinde oryantasyonu
-başarı ile tamamladığınız kabul edilecektir.
+başarı ile tamamladığınız kabul edilecektir. Bundan sonra bu proje dışındaki AAL TEBİGEP projelerine de katkıda bulunurken şu ana kadar yaptığınız aşamaları izleyerek katkıda bulunabilirsiniz.
 
 ---
 
-> Oryantasyonu tamamladınız!
-> [Ana sayfaya dön](https://github.com/aaltebigep/onboarding)
+> Oryantasyonu tamamladınız! <br />
+> [Ana sayfaya dön](https://github.com/aaltebigep/onboarding#readme) <br />
+> [Komut kılavuzunu görüntüle](04-komutlar.md)
 
 [buradan]: https://github.com/settings/ssh/new
 [bu]: https://github.com/settings/gpg/new
