@@ -11,11 +11,11 @@ kendilerini [`/members.yml`](members.yml) dosyasına eklemeliler.*
 > [!IMPORTANT]
 > Oryantasyonu [**buradan**](docs/01-git.md) okuyabilirsiniz.
 
-> [!NOTE]
-> Aklınıza takılan bir şey olduğunda GitHub'dan sorumlu üyeye (şu an: [@jn-sena](https://github.com/jn-sena)) danışabilirsiniz.
-
 > [!TIP]
 > Kopya kağıdı niteliğindeki komut kılavuzuna [**buradan**](docs/04-komutlar.md) erişebilirsiniz.
+
+> [!NOTE]
+> Aklınıza takılan bir şey olduğunda GitHub'dan sorumlu üyeye (şu an: [@jn-sena](https://github.com/jn-sena)) danışabilirsiniz.
 
 #### Lisans
 
